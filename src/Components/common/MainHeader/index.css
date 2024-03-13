@@ -1,0 +1,25 @@
+/*** Navbar ***/
+
+
+header .navbar ul li a {
+  font-family: "Jost", sans-serif;
+  color: #00224F;
+  font-size: 17px;
+}
+
+header .navbar ul li a:hover {
+  color: #50B148;
+  font-size: 17px;
+}
+
+header .navbar ul button {
+  font-family: "Jost", sans-serif;
+  border: 1px solid #12416A;
+  background-color: #12416A;
+}
+
+header .navbar ul button:hover {
+  font-family: "Jost", sans-serif;
+  border: 1px solid #50B148;
+  background-color: #50B148;
+}

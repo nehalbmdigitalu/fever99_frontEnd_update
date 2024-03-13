@@ -1,0 +1,53 @@
+.register-wrapp{
+    width: 650px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(243, 243, 243, 0.01) 4px 5px 11px 0px, rgba(0, 0, 0, 0.04) -19px 41px 27px, rgba(0, 0, 0, 0.07) -8px 18px 20px, rgba(251, 251, 251, 0.08) -2px 5px 11px, rgba(235, 235, 235, 0) 0px 0px 0px;
+    border-radius: 4px;
+    padding: 20px;
+.account-btn{
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 29.3517px 11.9241px, rgba(0, 0, 0, 0.05) 0px 16.5103px 10.0897px, rgba(0, 0, 0, 0.09) 0px 7.33793px 7.33793px, rgba(0, 0, 0, 0.1) 0px 1.83448px 3.66897px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
+  border-radius: 24.8378px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(75, 75, 75);
+  padding: 12px 20px;
+  margin-bottom:10px;
+    background: linear-gradient(111.04deg, rgb(246, 121, 11) -0.63%, rgb(251, 83, 38) 107.47%);
+    background-color: rgba(0, 0, 0, 0);
+  border: 0.809928px solid rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+}
+ .login-link{
+    a{
+        color:#0351cb;
+    }
+ }
+.form-scroll{
+    overflow-y: auto;
+    height: 350px;
+    width: 100%;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+    .col-md-6{
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-md-12{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+} 
+}

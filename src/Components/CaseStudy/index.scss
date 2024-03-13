@@ -1,0 +1,65 @@
+#caseStudy {
+    background: #fff;
+    .card{
+        box-shadow: -6px 7px 20px 0px rgb(0 0 0 / 19%);
+        background: #fff;
+        padding: 0;
+        img{
+            -webkit-border-top-left-radius: 9px;
+-webkit-border-top-right-radius: 9px;
+-moz-border-radius-topleft: 9px;
+-moz-border-radius-topright: 9px;
+border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+        }
+        .card-title{
+            padding: 10px;
+            margin-bottom: 1.125rem;
+            margin-top: -70px;
+            background: rgb(80 177 72 / 95%);
+            h3{
+                color:#fff;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+        .card-desrction{
+            padding: 20px;
+            div{
+                p{
+                    text-align: justify;
+                    line-height: 30px;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .list-group{
+        border: 1px solid #eee;
+    box-shadow: -7px 12px 20px #0000002b;
+      li{
+        line-height: 24px;
+        border-bottom: 1px solid #eee;
+        padding: 10px;
+        a{
+            font-size: 14px;
+            line-height: 24px;
+            &:hover{
+                color:#fff !important;
+            }
+        }
+        &:hover{
+            background: #1263ac;
+            color:#fff !important;
+            line-height: 24px;
+          border-bottom: 1px solid #eee;
+          a{
+            font-size: 14px;
+            line-height: 24px;
+            color:#fff !important;
+        }
+        }
+      }
+    }
+}

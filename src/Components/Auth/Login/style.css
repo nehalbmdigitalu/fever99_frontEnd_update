@@ -1,0 +1,124 @@
+/* login css */
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  padding: 10px 20px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.half,
+.half .container>.row {
+  height: 100vh;
+}
+
+@media (max-width: 991.98px) {
+  .half .bg {
+    height: 500px;
+  }
+}
+
+.half .contents,
+.half .bg {
+  width: 50%;
+}
+
+@media (max-width: 1199.98px) {
+
+  .half .contents,
+  .half .bg {
+    width: 100%;
+  }
+}
+
+
+.half .bg {
+  background-size: cover;
+  background-position: center;
+}
+
+.half a {
+  color: #888;
+  text-decoration: underline;
+}
+
+.half .btn {
+  padding: 10px 20px;
+}
+
+.half .forgot-pass {
+  position: relative;
+  top: 2px;
+  font-size: 14px;
+}
+
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.control .caption {
+  position: relative;
+  top: .2rem;
+}
+
+.bg .order-2 .form-signin {
+  padding: 81px 10px;
+}
+
+.bg .order-2 .form-signin form {
+  border-radius: 10px;
+}
+
+.bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+
+.control:hover input~.control__indicator,
+.control input:focus~.control__indicator {
+  background: #ccc;
+}
+
+
+.control input:disabled~.control__indicator {
+  background: #e6e6e6;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.control input:checked~.control__indicator:after {
+  display: block;
+  color: #fff;
+}
+
+.control--checkbox .control__indicator:after {
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.control--checkbox input:disabled~.control__indicator:after {
+  border-color: #7b7b7b;
+}
+
+.control--checkbox input:disabled:checked~.control__indicator {
+  background-color: #7e0cf5;
+  opacity: .2;
+}

@@ -1,0 +1,7 @@
+.react-bs-table-no-data div {
+  text-align: center;
+}
+
+.react-datepicker-wrapper {
+  display: block !important;
+}
